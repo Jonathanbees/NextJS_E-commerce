@@ -33,8 +33,6 @@ const DesktopShopHeader: NextPage<DesktopShopHeaderType> = ({
       <div className={styles.desktopShopHeader3Inner}>
         <div className={styles.imagen1Parent}>
           <img className={styles.imagen1Icon} alt="" src="/imagen-1@2x.png" />
-          <img className={styles.imagen2Icon} alt="" src="/imagen-2@2x.png" />
-          <img className={styles.imagen3Icon} alt="" src="/imagen-3@2x.png" />
           <img className={styles.vectorIcon} alt="" src="/vector.svg" />
           <img className={styles.vectorIcon1} alt="" src="/vector1.svg" />
         </div>
@@ -77,7 +75,7 @@ const DesktopShopHeader: NextPage<DesktopShopHeaderType> = ({
                   small scale just do not act that way.
                 </span>
               </p>
-              <button className={styles.cta}>
+              <button className={styles.cta} onClick={() => window.location.href = '/shop'}>
                 <div className={styles.btnLg1}>
                   <b className={styles.h3}>View products</b>
                 </div>

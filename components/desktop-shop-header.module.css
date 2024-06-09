@@ -1,13 +1,10 @@
-.imagen1Icon,
-.imagen2Icon,
-.imagen3Icon {
+.imagen1Icon {
   align-self: stretch;
-  width: 1440px;
+  width: 100%;
   position: relative;
   max-height: 100%;
   object-fit: cover;
   min-height: 640px;
-  max-width: 100%;
   flex-shrink: 0;
 }
 .vectorIcon {
@@ -30,9 +27,8 @@
   justify-content: flex-start;
 }
 .imagen1Parent {
-  width: 4320px;
-  debug_commit: bf4bc93;
-  max-width: 300%;
+  width: 100%; /* Cambiado de 4320px a 100% */
+  max-width: 100%; /* Cambiado de 300% a 100% */
   row-gap: 20px;
 }
 .desktopShopHeader3Inner {

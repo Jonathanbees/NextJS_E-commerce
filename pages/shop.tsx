@@ -121,9 +121,6 @@ const Shop: NextPage = () => {
           <div className={styles.h3SectionTitleWrapper}>
             <h3 className={styles.h3SectionTitle}>Discover the best for you</h3>
           </div>
-          <div className={styles.desktopProductCards15Inner}>
-            <div className={styles.frameChild} />
-          </div>
           <div className={styles.colMd3Parent}>
             <div className={styles.colMd3}>
               <div className={styles.productCard}>
@@ -328,112 +325,6 @@ const Shop: NextPage = () => {
                   <div className={styles.basket7}>
                     <img
                       className={styles.icnFavoriteIcon7}
-                      alt=""
-                      src="/icn-favorite1.svg"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className={styles.row1}>
-            <div className={styles.colMd38}>
-              <div className={styles.productCard8}>
-                <img
-                  className={styles.fixedHeightIcon8}
-                  alt=""
-                  src="/fixedheight-8@2x.png"
-                />
-                <div className={styles.h5ProductTitleParent5}>
-                  <b className={styles.h5ProductTitle8}>Meat 5</b>
-                  <b className={styles.linkProductCategory8}>
-                    Delicious meeat sell in pounds
-                  </b>
-                  <div className={styles.prices8}>
-                    <b className={styles.h5Price16}>$16.48</b>
-                    <b className={styles.h5Price17}>$6.48</b>
-                  </div>
-                  <div className={styles.basket8}>
-                    <img
-                      className={styles.icnFavoriteIcon8}
-                      alt=""
-                      src="/icn-favorite1.svg"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className={styles.colMd39}>
-              <div className={styles.productCard9}>
-                <img
-                  className={styles.fixedHeightIcon9}
-                  alt=""
-                  src="/fixedheight-9@2x.png"
-                />
-                <div className={styles.h5ProductTitleParent6}>
-                  <b className={styles.h5ProductTitle9}>Meat 2</b>
-                  <b className={styles.linkProductCategory9}>
-                    Delicious meeat sell in pounds
-                  </b>
-                  <div className={styles.prices9}>
-                    <b className={styles.h5Price18}>$16.48</b>
-                    <b className={styles.h5Price19}>$6.48</b>
-                  </div>
-                  <div className={styles.basket9}>
-                    <img
-                      className={styles.icnFavoriteIcon9}
-                      alt=""
-                      src="/icn-favorite1.svg"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className={styles.colMd310}>
-              <div className={styles.productCard10}>
-                <img
-                  className={styles.fixedHeightIcon10}
-                  alt=""
-                  src="/fixedheight-10@2x.png"
-                />
-                <div className={styles.h5ProductTitleParent7}>
-                  <b className={styles.h5ProductTitle10}>Meat 3</b>
-                  <b className={styles.linkProductCategory10}>
-                    Delicious meeat sell in pounds
-                  </b>
-                  <div className={styles.prices10}>
-                    <b className={styles.h5Price20}>$16.48</b>
-                    <b className={styles.h5Price21}>$6.48</b>
-                  </div>
-                  <div className={styles.basket10}>
-                    <img
-                      className={styles.icnFavoriteIcon10}
-                      alt=""
-                      src="/icn-favorite1.svg"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className={styles.colMd311}>
-              <div className={styles.productCard11}>
-                <img
-                  className={styles.fixedHeightIcon11}
-                  alt=""
-                  src="/fixedheight-11@2x.png"
-                />
-                <div className={styles.h5ProductTitleParent8}>
-                  <b className={styles.h5ProductTitle11}>Meat 4</b>
-                  <b className={styles.linkProductCategory11}>
-                    Delicious meeat sell in pounds
-                  </b>
-                  <div className={styles.prices11}>
-                    <b className={styles.h5Price22}>$16.48</b>
-                    <b className={styles.h5Price23}>$6.48</b>
-                  </div>
-                  <div className={styles.basket11}>
-                    <img
-                      className={styles.icnFavoriteIcon11}
                       alt=""
                       src="/icn-favorite1.svg"
                     />

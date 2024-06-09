@@ -279,12 +279,12 @@
   gap: var(--gap-xl);
 }
 .shopInner {
-  width: 1284.5px;
+  width: 100%; /* Ya es responsivo */
   justify-content: center;
-  padding: 0 var(--padding-xl) var(--padding-lgi);
+  padding: 0 2rem 1.5rem; /* Cambiado a rem */
   box-sizing: border-box;
   text-align: left;
-  font-size: var(--h3-size);
+  font-size: var(--h3-size); /* Asumiendo que var(--h3-size) es responsivo */
   color: var(--danger-color);
   font-family: var(--link);
 }
@@ -301,7 +301,7 @@
 }
 .h1Headline2 {
   margin: 0;
-  font-size: inherit;
+  font-size: calc(25px + 0.5vw);;
   letter-spacing: 0.2px;
   line-height: 80px;
   font-weight: 700;
@@ -315,7 +315,7 @@
 .h4 {
   margin: 0;
   position: relative;
-  font-size: var(--h4-size);
+  font-size: calc(16px + 0.5vw);
   letter-spacing: 0.2px;
   line-height: 30px;
 }
@@ -324,6 +324,7 @@
   overflow: hidden;
   align-items: center;
   box-sizing: border-box;
+  height: auto;
 }
 .mainContent {
   display: flex;
@@ -332,6 +333,7 @@
   padding: var(--padding-21xl) var(--padding-12xs);
   gap: var(--gap-5xl);
   max-width: 100%;
+  height: auto;
 }
 .row {
   padding: 0 var(--padding-12xs);
@@ -343,6 +345,7 @@
   flex-direction: column;
   justify-content: flex-start;
   max-width: 100%;
+  height: auto;
 }
 .container {
   margin: 0 !important;
@@ -392,8 +395,8 @@
   max-width: 100%;
 }
 .desktopProductCards15Inner {
-  width: 1050px;
-  height: 2px;
+  width: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1176,12 +1179,14 @@
   align-items: center;
 }
 .colMd3Parent {
-  width: 1049px;
+  width: 100%;
   flex: 1;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 24px 28.7px;
+  overflow-y: hidden;
+  gap: 1px 28.7px;
+  min-height: 100vh;
 }
 .fixedHeightIcon8 {
   align-self: stretch;
@@ -1581,8 +1586,8 @@
   align-items: center;
 }
 .row1 {
-  width: 1050px;
-  height: 339px;
+  width: 100%;
+  height: auto;
   flex-direction: row;
   align-items: flex-start;
   padding: 0 var(--padding-12xs) 0 0;
@@ -1590,14 +1595,16 @@
   gap: var(--gap-11xl);
 }
 .desktopProductCards15 {
-  width: 1440px;
+  width: 100%;
   flex: 1;
   background-color: var(--light-background-color1);
-  overflow-x: auto;
-  padding: var(--padding-13xl) 195px 127px;
+  overflow-x: hidden;
+  padding: var(--padding-3xl) 10rem 1rem;
   box-sizing: border-box;
   gap: var(--gap-5xl);
   max-width: 100%;
+  min-height: 100vh;
+  overflow-y: hidden;
 }
 .desktopProductCards15,
 .frameGroup,
@@ -1606,10 +1613,11 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  height: auto;
 }
 .frameGroup {
-  align-self: stretch;
-  height: 2194px;
+  align-self:inherit;
+  height: 250vh;
   max-width: 100%;
   text-align: center;
   font-size: var(--h5-size);
@@ -1626,10 +1634,9 @@
   line-height: normal;
   letter-spacing: normal;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1800px) {
   .desktopProductCards15 {
     padding-top: var(--padding-2xl);
-    padding-bottom: 83px;
     box-sizing: border-box;
   }
 }
@@ -1641,20 +1648,22 @@
     width: 697px;
   }
   .h1Headline2 {
-    font-size: var(--font-size-27xl);
+    font-size: calc(16px + 0.5vw);;
     line-height: 64px;
   }
   .desktopProductCards15 {
     padding-top: var(--padding-xl);
-    padding-bottom: 54px;
     box-sizing: border-box;
   }
 }
 @media screen and (max-width: 750px) {
   .desktopProductCards15 {
-    padding-left: var(--padding-78xl);
-    padding-right: var(--padding-78xl);
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-3xl);
     box-sizing: border-box;
+  }
+  .shopInner {
+    padding: 0 1rem 1rem; /* Menor padding para tablets */
   }
 }
 @media screen and (max-width: 450px) {
@@ -1665,7 +1674,7 @@
     width: 105.5px;
   }
   .h1Headline2 {
-    font-size: var(--font-size-16xl);
+    font-size: calc(16px + 0.5vw);
     line-height: 48px;
   }
   .h4 {
@@ -1681,5 +1690,8 @@
     padding-right: var(--padding-xl);
     padding-bottom: var(--padding-16xl);
     box-sizing: border-box;
+  }
+  .shopInner {
+    padding: 0 0.5rem 0.5rem; /* Menor padding para móviles */
   }
 }
