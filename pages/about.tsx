@@ -22,7 +22,7 @@ const About: NextPage = () => {
   }, [router]);
 
   const onLiContainer3Click = useCallback(() => {
-    // Please sync "log in" to the project
+    router.push("/sign-up");
   }, []);
 
   const onLiContainer4Click = useCallback(() => {

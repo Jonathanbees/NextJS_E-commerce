@@ -3,6 +3,7 @@ import Header from "../components/header";
 import FrameComponent from "../components/frame-component";
 import styles from "./sign-up.module.css";
 
+
 const SignUp: NextPage = () => {
   return (
     <div className={styles.signUp}>

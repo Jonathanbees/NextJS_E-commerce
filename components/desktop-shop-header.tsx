@@ -21,7 +21,7 @@ const DesktopShopHeader: NextPage<DesktopShopHeaderType> = ({
   }, [router]);
 
   const onLiContainer2Click = useCallback(() => {
-    // Please sync "log in" to the project
+    router.push("/sign-up");
   }, []);
 
   const onLiContainer3Click = useCallback(() => {
