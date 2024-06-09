@@ -1,0 +1,174 @@
+.h2FeatureSection1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 50px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.noMatterThe,
+.thatsAllMatters {
+  display: block;
+}
+.paragraph {
+  margin: 0;
+  position: relative;
+  font-size: var(--link-size);
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  color: var(--second-text-color);
+  text-align: center;
+}
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.mainContent,
+.mediaIcon,
+.row {
+  max-width: 100%;
+  overflow: hidden;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mediaIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.h5TeamName2,
+.h6TeamJob2 {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.h6TeamJob2 {
+  font-size: var(--link-size);
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  color: var(--second-text-color);
+}
+.facebookIcon,
+.instagramIcon,
+.twitterIcon {
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.facebookIcon,
+.instagramIcon {
+  height: 24px;
+  min-height: 24px;
+}
+.twitterIcon {
+  height: 19.8px;
+}
+.socialMedia {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xl);
+}
+.cardContent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-11xl) var(--padding-41xl);
+  gap: var(--gap-3xs);
+}
+.cardContent,
+.cardItem,
+.colMd4,
+.container,
+.row1 {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.cardItem {
+  align-self: stretch;
+  height: 383px;
+  background-color: var(--white-background-color);
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+}
+.colMd4,
+.container,
+.row1 {
+  max-width: 100%;
+}
+.colMd4 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 214px;
+}
+.container,
+.row1 {
+  align-items: center;
+}
+.row1 {
+  width: 1034px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-11xl);
+  text-align: center;
+  font-size: var(--h5-size);
+  color: var(--light-background-color1);
+}
+.container {
+  margin-left: -1px;
+  align-self: stretch;
+  background-color: var(--light-background-color1);
+  flex-direction: column;
+  padding: var(--padding-61xl) var(--padding-xl) var(--padding-15xl);
+  box-sizing: border-box;
+  gap: var(--gap-33xl);
+  text-align: left;
+  font-size: var(--h2-size);
+  color: var(--text-color);
+  font-family: var(--link);
+}
+@media screen and (max-width: 1050px) {
+  .h2FeatureSection1 {
+    font-size: var(--font-size-13xl);
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container {
+    gap: var(--gap-7xl);
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h2FeatureSection1 {
+    font-size: var(--h3-size);
+    line-height: 30px;
+  }
+  .cardContent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

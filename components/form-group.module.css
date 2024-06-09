@@ -1,0 +1,82 @@
+.email,
+.formControl {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.email {
+  width: 51px;
+  border: 0;
+  outline: 0;
+  font-family: var(--link);
+  font-size: var(--link-size);
+  background-color: transparent;
+  height: 28px;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+  color: var(--second-text-color);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.formControlInputStyle1,
+.inputformControl {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputformControl {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  padding: var(--padding-4xs) var(--padding-2xl);
+}
+.formControlInputStyle1 {
+  align-self: stretch;
+}
+.formText {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+}
+.formControlInputStyle1Parent {
+  width: 450px;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+  max-width: 327%;
+  flex-shrink: 0;
+}
+.formControlInputStyle1Parent,
+.formGroup,
+.formGroupInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.formGroupInner {
+  width: 142px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  font-size: var(--small-size);
+  color: var(--second-text-color);
+}
+.formGroup {
+  width: 450px;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 640px;
+  flex-direction: column;
+  gap: var(--gap-mid);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--light-text-gray-1);
+  font-family: var(--link);
+}

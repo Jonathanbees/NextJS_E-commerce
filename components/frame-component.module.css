@@ -1,0 +1,16 @@
+.formGroupParent {
+  align-self: stretch;
+  height: 449px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 37px 186px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--second-text-color);
+  font-family: var(--link);
+}

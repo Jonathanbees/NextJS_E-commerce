@@ -1,0 +1,211 @@
+.unsplashx5bwooeo4cwIcon {
+  height: 784px;
+  width: 720px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  debug_commit: bf4bc93;
+  max-width: 107%;
+}
+.colMd8 {
+  height: 649px;
+  width: 674px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 674px;
+  max-width: 100%;
+}
+.h5ProductTitle {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.h5ProductTitleWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-52xl);
+}
+.paragraphProductDescription {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+}
+.paragraphProductDescriptionWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl);
+  font-size: var(--link-size);
+  color: var(--second-text-color);
+}
+.unsplash5mg8cqbwT8Icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.printedSummerDress41 {
+  position: absolute;
+  top: 37px;
+  left: 0;
+  width: 348px;
+  height: 226px;
+  object-fit: cover;
+}
+.fixedHeight {
+  align-self: stretch;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.linkProductCategory {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 46px;
+}
+.linkProductCategoryWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) var(--padding-8xs) 0;
+  font-size: var(--link-size);
+  color: var(--danger-text-color);
+}
+.h5Price,
+.h5Price1 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 57px;
+  white-space: nowrap;
+}
+.h5Price1 {
+  color: var(--secondary-color-1);
+  min-width: 51px;
+}
+.colMd4Inner,
+.h5PriceParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.h5PriceParent {
+  width: 113px;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.colMd4Inner {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+  font-size: var(--h5-size);
+}
+.colMd4,
+.desktopProductCards4 {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.colMd4 {
+  width: 401px;
+  background-color: var(--light-text-gray-1);
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) var(--padding-7xl) var(--padding-49xl);
+  gap: var(--gap-lgi);
+  min-width: 401px;
+}
+.desktopProductCards4 {
+  align-self: stretch;
+  background-color: var(--light-background-color1);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-29xl) var(--padding-xl) var(--padding-base)
+    var(--padding-7xl);
+  row-gap: 20px;
+  text-align: center;
+  font-size: var(--h3-size);
+  color: var(--light-background-color1);
+  font-family: var(--link);
+}
+@media screen and (max-width: 1125px) {
+  .colMd4,
+  .colMd8,
+  .unsplashx5bwooeo4cwIcon {
+    flex: 1;
+  }
+  .desktopProductCards4 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .colMd8 {
+    gap: var(--gap-mid);
+    min-width: 100%;
+  }
+  .colMd4 {
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-25xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .desktopProductCards4 {
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h5ProductTitle {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .h5ProductTitleWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

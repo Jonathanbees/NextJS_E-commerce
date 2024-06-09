@@ -1,0 +1,178 @@
+.fixedHeightIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.h5ProductTitle {
+  width: 131px;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  font-weight: 700;
+  display: inline-block;
+}
+.basketChild {
+  height: 3px;
+  width: 18px;
+  position: relative;
+}
+.basket {
+  height: 24px;
+  width: 24px;
+  border-radius: 44.79px;
+  background-color: var(--color-brown);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-10xs) var(--padding-4xs);
+  box-sizing: border-box;
+}
+.linkProductCategory {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 84px;
+}
+.basketItem {
+  height: 15px;
+  width: 15px;
+  position: relative;
+}
+.basket1,
+.basketParent {
+  display: flex;
+  flex-direction: row;
+}
+.basket1 {
+  height: 23px;
+  width: 23px;
+  border-radius: 44.79px;
+  background-color: var(--danger-color);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+}
+.basketParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg);
+  gap: var(--gap-6xs);
+  text-align: left;
+  font-size: var(--link-size);
+  color: var(--second-text-color);
+}
+.h5Price,
+.h5Price1 {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  font-weight: 700;
+  display: inline-block;
+  white-space: nowrap;
+}
+.h5Price {
+  flex: 1;
+  min-width: 57px;
+}
+.h5Price1 {
+  width: 48px;
+  color: var(--secondary-color-1);
+  flex-shrink: 0;
+  min-width: 48px;
+}
+.prices {
+  width: 156px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-4xl);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  color: var(--muted-color);
+}
+.icnFavoriteIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.basket2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-12xl);
+  background-color: var(--color-brown);
+  border-radius: 44.79px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.icnFavoriteIcon1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.basket3,
+.basketGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.basket3 {
+  border-radius: 44.79px;
+  background-color: var(--danger-color);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-12xl);
+}
+.basketGroup {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.h5ProductTitleParent {
+  align-self: stretch;
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-6xl) var(--padding-10xl) var(--padding-16xl);
+  gap: var(--gap-3xs);
+}
+.colMd3,
+.h5ProductTitleParent,
+.productCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.productCard {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--light-background-color1);
+  overflow: hidden;
+  align-items: flex-start;
+}
+.colMd3 {
+  height: 492px;
+  align-items: center;
+  text-align: center;
+  font-size: var(--h5-size);
+  color: var(--text-color);
+  font-family: var(--link);
+}

@@ -1,0 +1,323 @@
+.navbarBrand {
+  height: 58px;
+  width: 187px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.navbarTogglerIcon {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 12px);
+  width: 100%;
+  height: 100%;
+}
+.navbarToggler {
+  height: 13.7px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.carniceriaParceros,
+.link {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+}
+.carniceriaParceros {
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.link {
+  margin-left: -1px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 45px;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+}
+.a,
+.li {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.li {
+  cursor: pointer;
+}
+.link1 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 39px;
+}
+.li1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+  cursor: pointer;
+}
+.link2 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 47px;
+}
+.li2 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 var(--padding-7xs);
+  cursor: pointer;
+}
+.link3 {
+  margin-left: -1px;
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 60px;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+}
+.a1,
+.frameWrapper,
+.liParent {
+  display: flex;
+  align-items: flex-start;
+}
+.a1 {
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameWrapper,
+.liParent {
+  margin: 0;
+}
+.liParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--link-size);
+  color: var(--second-text-color);
+  font-family: var(--link);
+}
+.frameWrapper {
+  width: 318px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.carniceriaParcerosParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.navbarInner {
+  width: 656px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.icnSettingsIcnXs {
+  width: 12px;
+  height: 12px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icnSettingsIcnXsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.loginRegister {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 120px;
+  white-space: nowrap;
+}
+.btn32,
+.li3 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.btn32 {
+  border-radius: var(--br-18xl);
+  padding: var(--padding-mini);
+  gap: var(--gap-9xs);
+}
+.li3 {
+  cursor: pointer;
+}
+.icnSettingsIcnXs1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.btn321,
+.btn32Wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.btn321 {
+  width: 46px;
+  height: 46px;
+  border-radius: var(--br-18xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-mini);
+  box-sizing: border-box;
+}
+.btn32Wrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.icnSettingsIcnXs2 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.a2 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 16px;
+  color: inherit;
+  display: inline-block;
+  min-width: 5px;
+}
+.btn322,
+.li4 {
+  overflow: hidden;
+  flex-direction: row;
+}
+.btn322 {
+  border-radius: var(--br-18xl);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini);
+  gap: var(--gap-8xs);
+}
+.li4 {
+  cursor: pointer;
+}
+.li4,
+.liGroup,
+.liWrapper,
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.liWrapper {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  font-size: var(--small-size);
+}
+.liGroup,
+.navbar {
+  flex-direction: row;
+  text-align: center;
+  font-size: var(--link-size);
+}
+.navbar {
+  align-self: stretch;
+  background-color: var(--light-background-color);
+  overflow: hidden;
+  padding: var(--padding-lg) var(--padding-63xl) var(--padding-lgi);
+  box-sizing: border-box;
+  gap: var(--gap-177xl-5);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--danger-color);
+  font-family: var(--link);
+}
+@media screen and (max-width: 1200px) {
+  .navbar {
+    gap: var(--gap-79xl);
+    padding-left: var(--padding-22xl);
+    padding-right: var(--padding-22xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .frameWrapper {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navbar {
+    gap: var(--gap-30xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .liParent {
+    display: none;
+  }
+  .frameWrapper {
+    width: 0;
+  }
+  .navbar {
+    gap: var(--gap-6xl);
+  }
+}
